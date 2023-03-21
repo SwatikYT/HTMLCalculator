@@ -44,16 +44,26 @@ body {
     font-size: 15px;
     color: #fff;
     margin-right: 950px;
+    opacity: 0.9;
 }
 
-/*-------------------------Copyright By DEV.SWA1.SU---------------------------------------*/
 
-.copyright {
-    position: fixed;
-    padding: 10px 10px;
+/*width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;*/
+
+
+/*position: fixed;
+    padding: 5px 5px;
     border: 1px solid rgba(255, 255, 255, 0.34);
     text-align: center;
-    border-radius: 16px;
+    border-radius: 20px;
     box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
@@ -61,9 +71,32 @@ body {
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     flex-basis: 400px;
-    width: 326px;
+    width: 200px;
     font-family: 'Dosis', sans-serif;
-    font-size: 30px;
+    font-size: 35px;
+    color: #fff;
+    transform: scale(1);*/
+
+
+
+/*-------------------------Copyright By DEV.SWA1.SU---------------------------------------*/
+
+.copyright {
+    position: fixed;
+    padding: 5px 5px;
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    flex-basis: 400px;
+    width: 200px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 35px;
     color: #fff;
     transform: scale(1);
 }
@@ -80,6 +113,7 @@ body {
     flex-basis: 20%;
     font-family: inherit;
     transform: scale(1);
+    transition: .5s;
 }
 
 /*-------------------------Copyright By DEV.SWA1.SU---------------------------------------*/
@@ -145,10 +179,10 @@ body {
 
 .copyright2.active {
     position: absolute;
-    padding: 10px 10px;
+    padding: 5px 5px;
     border: 1px solid rgba(255, 255, 255, 0.34);
     text-align: center;
-    border-radius: 16px;
+    border-radius: 20px;
     box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
@@ -156,9 +190,9 @@ body {
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     flex-basis: 400px;
-    width: 326px;
+    width: 200px;
     font-family: 'Dosis', sans-serif;
-    font-size: 30px;
+    font-size: 35px;
     color: #fff;
     transform: scale(1);
 }
@@ -186,6 +220,7 @@ body {
     flex-basis: 20%;
     font-family: inherit;
     transform: scale(1);
+    transition: .5s;
 }
 
 
